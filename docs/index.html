@@ -3,28 +3,96 @@
   <head>
     <meta charset="UTF-8" />
     <title>CS499 ePortfolio</title>
+    <style>
+      /* Basic CSS Reset & Styling */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+      }
+      header {
+        background-color: #4CAF50;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      h1 {
+        margin: 0;
+      }
+      main {
+        background-color: #fff;
+        margin: 20px auto;
+        padding: 20px;
+        max-width: 800px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      }
+      h2 {
+        margin-top: 0;
+      }
+      p {
+        line-height: 1.6;
+      }
+      .artifact-list {
+        list-style: none;
+        padding: 0;
+      }
+      .artifact-list li {
+        margin: 10px 0;
+      }
+      .artifact-list a {
+        text-decoration: none;
+        color: #4CAF50;
+        font-weight: bold;
+      }
+      .artifact-list a:hover {
+        text-decoration: underline;
+      }
+      footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #ddd;
+        margin-top: 20px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Welcome to My CS499 ePortfolio</h1>
-    <p>
-      This page will showcase my projects and enhancements for the three categories:
-    </p>
-    <ul>
-      <li>
-        <a href="../Software_Engineering_and_Design/sample_artifact.cpp">
-          Software Engineering and Design Artifact
-        </a>
-      </li>
-      <li>
-        <a href="../Algorithms_and_Data_Structures/loan_evaluation.py">
-          Algorithms and Data Structures Artifact
-        </a>
-      </li>
-      <li>
-        <a href="../Databases/schema.sql">
-          Databases Artifact
-        </a>
-      </li>
-    </ul>
+    <header>
+      <h1>My CS499 ePortfolio</h1>
+    </header>
+    <main>
+      <h2>Welcome!</h2>
+      <p>
+        This ePortfolio showcases my work in three key categories:
+        <strong>Software Engineering and Design</strong>,
+        <strong>Algorithms and Data Structures</strong>, and
+        <strong>Databases</strong>. Click the links below to view each artifact.
+      </p>
+      <ul class="artifact-list">
+        <li>
+          <a href="../Software_Engineering_and_Design/sample_artifact.cpp" target="_blank">
+            Software Engineering & Design Artifact
+          </a>
+        </li>
+        <li>
+          <a href="../Algorithms_and_Data_Structures/loan_evaluation.py" target="_blank">
+            Algorithms & Data Structures Artifact
+          </a>
+        </li>
+        <li>
+          <a href="../Databases/schema.sql" target="_blank">
+            Databases Artifact
+          </a>
+        </li>
+      </ul>
+      <p>
+        Stay tuned for weekly enhancements as I improve these projects and expand
+        my skills!
+      </p>
+    </main>
+    <footer>
+      <p>&copy; 2025 My CS499 ePortfolio</p>
+    </footer>
   </body>
 </html>
